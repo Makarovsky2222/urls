@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Sources Tiles DASH",
+    "streams": [
+      {
+        "id": "multi_tf1-dash",
+        "name": "TF1",
+        "type": "DASH",
+        "ll": false,
+        "manifest": "https://explolab7.broadpeak.tv/bpk-tv/multi_tf1/default/index.mpd"
+      },
+      {
+        "id": "multi_france2-dash",
+        "name": "France2",
+        "type": "DASH",
+        "ll": false,
+        "manifest": "https://explolab7.broadpeak.tv/bpk-tv/multi_france2/default/index.mpd"
+      },
+      {
+        "id": "multi_arte-dash",
+        "name": "Arte",
+        "type": "DASH",
+        "ll": false,
+        "manifest": "https://explolab7.broadpeak.tv/bpk-tv/multi_arte/default/index.mpd"
+      },
+      {
+        "id": "multi_lequipe-dash",
+        "name": "L'Equipe",
+        "type": "DASH",
+        "ll": false,
+        "manifest": "https://explolab7.broadpeak.tv/bpk-tv/multi_lequipe/default/index.mpd"
+      }
+    ]
+  },
+  {
+    "name": "Tiled DASH",
+    "streams": [
+      {
+        "id": "tile-dash",
+        "name": "Tile",
+        "type": "DASH",
+        "ll": false,
+        "manifest": "https://multiview-poc.twlive.enwd.co.sa.charterlab.com/bpk-tv/tile/default/index.mpd?layout=quad&tile0=00383&tile1=00393&tile2=18742&tile3=00084",
+        "tiles": ["00383", "00393", "18742", "00084"]
+      }
+    ]
+  }
+]
